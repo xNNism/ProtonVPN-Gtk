@@ -1,4 +1,3 @@
 #!/bin/bash
 
-user=whoami
-cd /home/$user/ProtonVPN-GtK/ && sudo python ProtonVPN.py
+cd /usr/share/protonvpn-gtk/ && sudo python ProtonVPN.py

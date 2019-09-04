@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=ProtonVPN-Gtk
+Comment=GTK3 ProtonVPN Client using offical ProtonVPN-CLi
+Exec=sudo protonvpn-gtk
+Icon=/usr/share/ProtonVPN-Gtk/icons/icon.png
+Terminal=false
+Type=Application
+StartupNotify=false
+Name[en_US]=protonvpn-gtk

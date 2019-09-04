@@ -1,13 +1,11 @@
 #!bin/bash
 
-sudo bash -c "git clone https://github.com/ProtonVPN/protonvpn-cli.git ; ./protonvpn-cli/protonvpn-cli.sh --install"
+bash -c "git clone https://github.com/ProtonVPN/protonvpn-cli.git ; ./protonvpn-cli/protonvpn-cli.sh --install"
 protonvpn-cli --update && protonvpn-cli --init
+git clone https://github.com/xNNism/ProtonVPN-Gtk
 
-git clone https://github.com/Slethen/ProtonVPN-Gtk.git
+cp -r ProtonVPN-Gtk /usr/share/
+cp /usr/share/ProtonVPN-Gtk/protonvpn-gtk /bin/protonvpn-gtk
 
-user=whoami
-cp -r ProtonVPN-GtK /home/$user/ProtonVPN-GtK
-sudo cp /home/$user/ProtonVPN-GtK/protonvpn-gtk /usr/bin/protonvpn-gtk
-chmod +x /usr/bin/protonvpn-gtk
 
 
